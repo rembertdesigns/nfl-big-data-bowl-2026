@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore raw and processed data files
+/data/raw/*
+!/data/raw/README.md  # Optional: keep a README to explain the raw folder
+/data/processed/*
+/data/features/*
+/data/outputs/*
+/data/models/*
+
+# Ignore large files or temporary outputs
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Ignore experiment notebooks or local experiments (optional)
+notebooks/*.ipynb
+!notebooks/README.md

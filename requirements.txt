@@ -1,0 +1,35 @@
+# Core
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Modeling
+scikit-learn
+xgboost
+lightgbm
+
+# Deep learning (optional but good for LSTM, GNN, etc.)
+torch
+torchvision
+tensorflow
+
+# Graph-based models (if exploring spatial-temporal GNNs)
+networkx
+dgl  # Deep Graph Library (optional)
+# torch-geometric  # Only if needed; requires extra installation steps
+
+# Utilities
+tqdm
+notebook
+jupyterlab
+ipykernel
+
+# Explainability
+shap
+
+# Competition / file handling
+kaggle
